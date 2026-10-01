@@ -57,6 +57,7 @@ fun TugasLogin() {
                     .size(150.dp)
                     .clip(CircleShape)
             )
+            Spacer(modifier = Modifier.height(40.dp))
         }
     }
 
