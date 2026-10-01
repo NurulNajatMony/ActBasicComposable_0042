@@ -65,6 +65,13 @@ fun TugasLogin() {
                 color = Color.Red,
                 fontWeight = FontWeight.Bold
             )
+
+            Text(
+                text = "Nurul Najat Mony",
+                fontSize = 20.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 
