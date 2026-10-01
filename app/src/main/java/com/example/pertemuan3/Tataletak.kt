@@ -1,6 +1,7 @@
 package com.example.pertemuan3
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
@@ -89,3 +90,7 @@ fun TataletakRowColumn(modifier: Modifier) {
         }
     }
 }
+
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier) {
+    val gambar = painterResource(id = R.drawable.notasibalok)
