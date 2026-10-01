@@ -1,6 +1,7 @@
 package com.example.pertemuan3
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 
 @Composable
 fun TataletakColumn(modifier: Modifier) {
@@ -39,4 +40,9 @@ fun TataletakBox(modifier: Modifier) {
         Text(text = "Box 2")
         Text(text = "Column 2")
     }
+}
+
+@Composable
+fun TataletakColumnRow(modifier: Modifier) {
+
 }
