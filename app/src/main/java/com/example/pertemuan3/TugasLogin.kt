@@ -1,6 +1,7 @@
 package com.example.pertemuan3
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -81,7 +82,19 @@ fun TugasLogin() {
             )
 
             Spacer(modifier = Modifier.height(20.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.foto_profil),
+                contentDescription = "Foto Profil",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(220.dp)
+                    .clip(CircleShape)
+                    .border(4.dp, Color.White, CircleShape)
+            )
         }
     }
-
 }
+
+
+
